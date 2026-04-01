@@ -1,14 +1,14 @@
 @font-face {
-    src: url("./fonts/FormaDJRVariableNormal[opsz\,slnt\,wght]-Edu.woff2") format("woff2"),
-         url('./fonts/FormaDJRVariableNormal[opsz\,slnt\,wght]-Edu.woff') format("woff");
-    font-family: 'Forma';
+    src: url("fonts/NunitoSans-VariableFont_YTLC\,opsz\,wdth\,wght.woff2") format("woff2");
+        src: url("fonts/NunitoSans-Italic-VariableFont_YTLC\,opsz\,wdth\,wght\ \(1\).woff2") format("woff2");
+    font-family: 'Nunito Sans';
     font-style: normal;
     font-weight: normal;
     }
     
     body{
     background-color: pink;
-    font-family: 'Forma';
+    font-family: 'Nunito Sans';
 }
 /* how the page wrapper will appear on mobile */
 .page-wrapper{
@@ -74,9 +74,9 @@ h3{
 }
 @keyframes weightVariations {
     0%, 100%{
-        font-variation-settings: "opsz" 16, "wght" 200, "slnt" 0;
+        font-variation-settings: "opsz" 6, "wght" 200, "wdth" 75, "ytlc" 400;
     }
-    50%{font-variation-settings: "opsz" 16, "wght" 900, "slnt" 0;
+    50%{font-variation-settings: "opsz" 12, "wght" 1000, "wdth" 125, "ytlc" 500;
     }
 }
 /* where the animation is for the width change */
