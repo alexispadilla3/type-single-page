@@ -1,13 +1,14 @@
 @font-face {
     src: url("fonts/NunitoSans-VariableFont_YTLC\,opsz\,wdth\,wght.woff2") format("woff2");
-        src: url("fonts/NunitoSans-Italic-VariableFont_YTLC\,opsz\,wdth\,wght\ \(1\).woff2") format("woff2");
     font-family: 'Nunito Sans';
     font-style: normal;
     font-weight: normal;
     }
     
     body{
-    background-color: pink;
+    background-color: #D9D9D9;
+    background-image: url(Assets/Desktop-10.png);
+     background-size: cover;
     font-family: 'Nunito Sans';
 }
 /* how the page wrapper will appear on mobile */
@@ -29,9 +30,10 @@ grid-template-areas:
     "a a";
 }
 
+/* History Box */
 #history {
 grid-area: h;
-background-color: lightcoral;
+background-color:#D9D9D9;
 }
 
 #variations{
@@ -44,28 +46,88 @@ grid-area: a;
 }
 /* CSS for the footer */
 footer{
-    background-color: rgb(138, 21, 21);
+    background-color: #d9d9d9;
     height:200px;
 }
 
 /* font styling area */
 h2{
-    color: firebrick;
-    font-variation-settings: "opsz" 16, "wght" 900, "slnt" -8;
+    color: #000000;
+    font-variation-settings:  "opsz" 12, "wght" 1000, "wdth" 125, "ytlc" 540;
 }
 
 h3{
-    font-weight:20; 
-    text-align: center;
-    font-size: 5em;
-    animation: weightChange 7s infinite;
+    font-size: 300px;
+    word-spacing: -70px;
+    margin-left: 800;
+    margin-top: 50;
+}
+
+.hero{
+  display: inline-block;
+}
+
+
+.N {
+  font-variation-settings: "wght" 300, "wdth" 90, "opsz" 8, "ytlc" 500;
+  font-style:italic;
+   
+}
+
+/* LIGHT */
+.u {
+  font-variation-settings:  "wght" 1000, "wdth" 125, "opsz" 6, "ytlc" 540;
+}
+
+/* REGULAR */
+.n1 {
+  font-variation-settings: "wght" 800, "wdth" 75, "opsz" 12, "ytlc" 440;
+  font-style:italic; 
+}
+
+/* BOLD */
+.i {
+  font-variation-settings: "wght" 500, "wdth" 75, "opsz" 8, "ytlc" 540;
+}
+
+.t {
+  font-variation-settings: "wght" 200, "wdth" 100, "opsz" 6, "ytlc" 540;
+font-style:italic;
+}
+
+.o {
+  font-variation-settings: "wght" 900, "wdth" 125, "opsz" 12, "ytlc" 440;
+}
+
+.S {
+  font-variation-settings: "wght" 700, "wdth" 125, "opsz" 12, "ytlc" 500;
+}
+
+.a {
+  font-variation-settings: "wght" 400, "wdth" 75, "opsz" 12, "ytlc" 440;
+}
+
+.n2 {
+  font-variation-settings: "wght" 200, "wdth" 115, "opsz" 9, "ytlc" 500;
+  font-style:italic;
+}
+
+.s1 {
+  font-variation-settings: "wght" 600, "wdth" 85, "opsz" 10, "ytlc" 540;
+  font-style:italic;
+}
+
+/* Overall sizing */
+.hero-type {
+  font-size: 6rem;
+  line-height: 0.9;
 }
 
 @keyframes weightChange {
     0%, 100%{
-        font-variation-settings: "opsz" 16, "wght" 200, "slnt" 0;
+        font-variation-settings: "opsz" 6, "wght" 200, "wdth" 75, "ytlc" 440;
     }
-    50%{font-variation-settings: "opsz" 16, "wght" 900, "slnt" -13;
+    50%{font-variation-settings: "opsz" 12, "wght" 1000, "wdth" 125, "ytlc" 540;
     }
 }
 /* animations for the variations section */
@@ -74,9 +136,9 @@ h3{
 }
 @keyframes weightVariations {
     0%, 100%{
-        font-variation-settings: "opsz" 6, "wght" 200, "wdth" 75, "ytlc" 400;
+        font-variation-settings: "opsz" 6, "wght" 200, "wdth" 75, "ytlc" 440;
     }
-    50%{font-variation-settings: "opsz" 12, "wght" 1000, "wdth" 125, "ytlc" 500;
+    50%{font-variation-settings: "opsz" 12, "wght" 1000, "wdth" 125, "ytlc" 540;
     }
 }
 /* where the animation is for the width change */
@@ -85,15 +147,15 @@ h3{
 }
 @keyframes widthVariations {
     0%, 100%{
-        font-variation-settings: "opsz" 16, "wght" 200, "slnt" 0;
+        font-variation-settings: "opsz" 6, "wght" 200, "wdth" 75, "ytlc" 440;
     }
-    50%{font-variation-settings: "opsz" 16, "wght" 900, "slnt" 0;
+    50%{font-variation-settings: "opsz" 12, "wght" 1000, "wdth" 125, "ytlc" 540;
     }
 }
 
 h5{
     font-size:40px;
-    color:blue;
+    color:#000000;
     margin:15px;
 }
 
