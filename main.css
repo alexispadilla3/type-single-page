@@ -63,12 +63,16 @@ h3{
     color: bisque;
 }
 
+h4{
+  font-size: 80px;
+}
 .hero{
   align-self: start;
 }
 
-.s, .a, .n2, .s1 {
-  margin-top: 90px; /* adjust this value */
+.S, .a, .n2, .s1 {
+ position: relative;
+ top: -184px; /* adjust this value */
 }
 
 .N {
@@ -109,21 +113,24 @@ margin-left: -105px;
 
 .S {
   font-variation-settings: "wght" 700, "wdth" 125, "opsz" 12, "ytlc" 500;
-   
+  margin-left: -17px;
 }
 
 .a {
   font-variation-settings: "wght" 400, "wdth" 75, "opsz" 12, "ytlc" 440;
+  margin-left: -60px;
 }
 
 .n2 {
   font-variation-settings: "wght" 200, "wdth" 115, "opsz" 9, "ytlc" 500;
   font-style:italic;
+  margin-left: -90px;
 }
 
 .s1 {
   font-variation-settings: "wght" 600, "wdth" 85, "opsz" 10, "ytlc" 540;
   font-style:italic;
+  margin-left: -67px;
 }
 
 /* Overall sizing */
