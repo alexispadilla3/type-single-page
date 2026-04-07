@@ -57,50 +57,59 @@ h2{
 }
 
 h3{
-    font-size: 300px;
-    word-spacing: -70px;
-    margin-left: 800;
-    margin-top: 50;
+    font-size: 286px;
+    margin-left: 104px;
+    margin-top: 65px;
+    color: bisque;
 }
 
 .hero{
-  display: inline-block;
+  align-self: start;
 }
 
+.s, .a, .n2, .s1 {
+  margin-top: 90px; /* adjust this value */
+}
 
 .N {
   font-variation-settings: "wght" 300, "wdth" 90, "opsz" 8, "ytlc" 500;
   font-style:italic;
-   
+   margin-left: -25px;
 }
 
 /* LIGHT */
 .u {
   font-variation-settings:  "wght" 1000, "wdth" 125, "opsz" 6, "ytlc" 540;
+   margin-left: -49px;
 }
 
 /* REGULAR */
 .n1 {
   font-variation-settings: "wght" 800, "wdth" 75, "opsz" 12, "ytlc" 440;
   font-style:italic; 
+  margin-left: -75px;
 }
 
 /* BOLD */
 .i {
   font-variation-settings: "wght" 500, "wdth" 75, "opsz" 8, "ytlc" 540;
+  margin-left: -54px;
 }
 
 .t {
   font-variation-settings: "wght" 200, "wdth" 100, "opsz" 6, "ytlc" 540;
 font-style:italic;
+margin-left: -105px;
 }
 
 .o {
   font-variation-settings: "wght" 900, "wdth" 125, "opsz" 12, "ytlc" 440;
+  margin-left: -40px;
 }
 
 .S {
   font-variation-settings: "wght" 700, "wdth" 125, "opsz" 12, "ytlc" 500;
+   
 }
 
 .a {
@@ -120,7 +129,7 @@ font-style:italic;
 /* Overall sizing */
 .hero-type {
   font-size: 6rem;
-  line-height: 0.9;
+  line-height: 0.8;
 }
 
 @keyframes weightChange {
