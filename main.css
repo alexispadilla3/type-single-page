@@ -1,3 +1,7 @@
+@media (prefers-reduced-motion: reduce) { 
+*,*::before, *::after { animation: none !important; 
+transition: none !important; } }
+
 @font-face {
     src: url("fonts/NunitoSans-VariableFont_YTLC\,opsz\,wdth\,wght.woff2") format("woff2");
     font-family: 'Nunito Sans';
@@ -74,14 +78,14 @@ h3{
     font-size: 286px;
     margin-left: 104px;
     margin-top: 65px;
-    color: rgb(0, 0, 0);
+    color: #335CFF;
 }
 
 h4{
    font-size: 70px;
    margin-left: 830px;
    margin-top: -650px;
-   color: rgb(0, 0, 0);
+   color: #865fae;
 }
 
 h5{
@@ -181,6 +185,15 @@ margin-left: -105px;
   margin-left: -67px;
 }
 
+/*Box Color*/
+.box {
+  padding: 20px;             /* space inside the box */
+  width: 1449px;              
+  height: 900px;
+  margin-top: -900px;
+  background-color: #C891FF; 
+}
+
 /* Overall sizing */
 .hero-type {
   font-size: 6rem;
@@ -243,9 +256,9 @@ margin-left: -105px;
 
 /*Scroll Banner Box*/
 .marquee-track {
-  background-color: #335CFF; /* grey box */
+  background-color: #335CFF; 
   padding: 10px;             /* space inside */
-  display: inline-block;     /* keeps box tight around text */
+  display: inline-block;     
 }
 
 h6{
