@@ -116,6 +116,15 @@ h5{
   margin-top: -140px;
 }
 
+.character{
+font-size: 80px;
+   color: #000000;
+   font-variation-settings:  "opsz" 12, "wght" 800, "wdth" 100, "ytlc" 500;
+   margin-top: 30px;
+}
+
+
+
 .hero{
   align-self: start;
 }
