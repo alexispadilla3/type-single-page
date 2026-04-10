@@ -23,8 +23,6 @@ transition: none !important; } }
     background-color: #E3FF94;
     background-size: cover;
     font-family: 'Nunito Sans';
-    background-image: url(Assets/Desktop-15.png);
-
 }
 /* how the page wrapper will appear on mobile */
 .page-wrapper{
@@ -204,7 +202,7 @@ margin-left: -105px;
 /*Box Color*/
 .box {
   padding: 20px;             /* space inside the box */
-  width: 1449px;              
+  width: 1440px;              
   height: 900px;
   margin-top: -900px;
   background-color: #C891FF; 
