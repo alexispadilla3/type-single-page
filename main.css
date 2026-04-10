@@ -20,7 +20,7 @@ transition: none !important; } }
 }
     
     body{
-    background-color: #d9d9d9;
+    background-color: #E3FF94;
     background-size: cover;
     font-family: 'Nunito Sans';
 }
@@ -59,6 +59,8 @@ grid-area: a;
 footer{
     background-color: #d9d9d9;
     height:200px;
+    margin-bottom: 500px;
+    margin-top: 700px;
 }
 
 /* font styling area */
