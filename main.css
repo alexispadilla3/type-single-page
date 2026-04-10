@@ -2,6 +2,8 @@
 *,*::before, *::after { animation: none !important; 
 transition: none !important; } }
 
+
+
 @font-face {
     src: url("fonts/NunitoSans-VariableFont_YTLC\,opsz\,wdth\,wght.woff2") format("woff2");
     font-family: 'Nunito Sans';
@@ -93,10 +95,6 @@ h5{
    color: #000000;
    font-variation-settings:  "opsz" 12, "wght" 800, "wdth" 100, "ytlc" 500;
    margin-top: 630px;
-}
-
-h6{
-margin-left: -90px
 }
 
 .history-para {
@@ -265,6 +263,7 @@ h6{
     font-size:40px;
     color:#000000;
     margin:15px;
+    margin-left: 0px;
 }
 
 /* variable font that changes on hover */
