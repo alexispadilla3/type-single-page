@@ -23,6 +23,7 @@ transition: none !important; } }
     background-color: #E3FF94;
     background-size: cover;
     font-family: 'Nunito Sans';
+
 }
 /* how the page wrapper will appear on mobile */
 .page-wrapper{
@@ -132,12 +133,23 @@ font-size: 80px;
 
 /*Number Styling*/
 .one{
-font-size: 100px;
+font-size: 600px;
 }
+
+.two{
+font-size: 600px;
+}
+
+.three{
+font-size: 600px;
+}
+
 
 .hero{
   align-self: start;
 }
+
+
 
 .S, .a, .n2, .s1 {
  position: relative;
