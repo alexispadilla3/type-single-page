@@ -133,7 +133,10 @@ font-size: 80px;
 
 /*Number Styling*/
 .one{
-font-size: 600px;
+  font-size: 600px;
+  margin-left: 200px;
+  position: relative;
+  top: -345px;
 }
 
 .two{
