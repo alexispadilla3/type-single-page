@@ -132,21 +132,34 @@ font-size: 80px;
 }
 
 /*Number Styling*/
-.one{
+
+.numbers-bg span {
+  position: absolute;
   font-size: 600px;
-  margin-left: 200px;
-  position: relative;
-  top: -345px;
+  font-weight: 800;
+  color: black;
+  line-height: 1;
 }
 
-.two{
-font-size: 600px;
+.seven {
+   bottom: -150px;
+  left: 300px;
 }
 
-.three{
-font-size: 600px;
+.eight {
+   bottom: -150px;
+  left: 500px;
 }
 
+.nine {
+  bottom: -150px;
+  right: 200px;
+}
+
+.zero {
+   bottom: -150px;
+  right: -50px;
+}
 
 .hero{
   align-self: start;
