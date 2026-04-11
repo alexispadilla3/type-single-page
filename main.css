@@ -75,7 +75,7 @@ h2{
     color: #000000;
     font-variation-settings:  "opsz" 12, "wght" 800, "wdth" 100, "ytlc" 500;
     font-size: 80px;
-    margin-top: 80px;
+    margin-top: -10px;
 }
 
 h3{
@@ -96,7 +96,7 @@ h5{
    font-size: 80px;
    color: #000000;
    font-variation-settings:  "opsz" 12, "wght" 800, "wdth" 100, "ytlc" 500;
-   margin-top: 630px;
+   margin-top: 550px;
 }
 
 .history-para {
