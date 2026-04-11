@@ -22,7 +22,7 @@ transition: none !important; } }
     body{
     background-color: #E3FF94;
     background-size: cover;
-    font-family: 'Nunito Sans';
+    font-family: 'Nunito Sans';background-image: url(Assets/Desktop-15.png);
 }
 /* how the page wrapper will appear on mobile */
 .page-wrapper{
@@ -127,10 +127,13 @@ h5{
 font-size: 80px;
    color: #000000;
    font-variation-settings:  "opsz" 12, "wght" 800, "wdth" 100, "ytlc" 500;
-   margin-top: 30px;
+   margin-top: 330px;
 }
 
-
+/*Number Styling*/
+.one{
+font-size: 100px;
+}
 
 .hero{
   align-self: start;
