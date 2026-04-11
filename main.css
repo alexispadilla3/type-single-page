@@ -22,6 +22,7 @@ transition: none !important; } }
     body{
     background-color: #E3FF94;
     background-size: cover;
+    font-family: 'Nunito Sans';
 }
 /* how the page wrapper will appear on mobile */
 .page-wrapper{
