@@ -5,19 +5,10 @@ transition: none !important; } }
 
 
 @font-face {
-    src: url("fonts/NunitoSans-VariableFont_YTLC\,opsz\,wdth\,wght.woff2") format("woff2");
+    src: url("fonts/NunitoSans-VariableFont_YTLC,opsz,wdth,wght.woff2") format("woff2");
     font-family: 'Nunito Sans';
     font-style: normal;
-    font-weight: normal;
     }
-
-
-.nunito-sans{
-  font-family: "Nunito Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
-}
     
     body{
     background-color: #d9d9d9;
@@ -178,41 +169,41 @@ font-size: 80px;
 
 .five {
   bottom: -2790px;
-  left: -88px;
+  left: 3px;
   font-variation-settings:  "opsz" 12, "wght" 200, "wdth" 100, "ytlc" 500;
   font-style:italic;
 }
 
 .six {
   bottom: -2790px;
-  left: 185px;
+  left: 263px;
   font-variation-settings:  "opsz" 12, "wght" 600, "wdth" 75, "ytlc" 500;
 
 }
 
 .seven {
   bottom: -2790px;
-  left: 350px;
+  left: 410px;
   font-variation-settings:  "opsz" 12, "wght" 800, "wdth" 75, "ytlc" 500;
   font-style:italic;
 }
 
 .eight {
   bottom: -2790px;
-  left: 610px;
+  left: 650px;
   font-variation-settings:  "opsz" 12, "wght" 700, "wdth" 125, "ytlc" 500;
 }
 
 .nine {
   bottom: -2790px;
-  right: 270px;
+  right:246px;
   font-variation-settings:  "opsz" 12, "wght" 200, "wdth" 100, "ytlc" 500;
   font-style:italic;
 }
 
 .zero {
   bottom: -2790px;
-  right: 33px;
+  right: 25px;
   font-variation-settings:  "opsz" 12, "wght" 400, "wdth" 100, "ytlc" 500;
   font-style:italic;
 }
@@ -310,28 +301,54 @@ margin-left: -105px;
     }
 }
 /* animations for the variations section */
-.weight{
+.Weight{
     animation: weightVariations 5s infinite;
 }
 @keyframes weightVariations {
     0%, 100%{
-        font-variation-settings: "opsz" 6, "wght" 200, "wdth" 75, "ytlc" 440;
+        font-variation-settings: "opsz" 126, "wght" 200, "wdth" 100, "ytlc" 500;
     }
-    50%{font-variation-settings: "opsz" 12, "wght" 1000, "wdth" 125, "ytlc" 540;
+    50%{font-variation-settings: "opsz" 12, "wght" 1000, "wdth" 100, "ytlc" 500;
     }
 }
+
 /* where the animation is for the width change */
-.width{
+.Width{
     animation: widthVariations 5s infinite;
 }
 @keyframes widthVariations {
     0%, 100%{
-        font-variation-settings: "opsz" 6, "wght" 200, "wdth" 75, "ytlc" 440;
+        font-variation-settings: "opsz" 12, "wght" 400, "wdth" 75, "ytlc" 500;
     }
-    50%{font-variation-settings: "opsz" 12, "wght" 1000, "wdth" 125, "ytlc" 540;
+    50%{font-variation-settings: "opsz" 12, "wght" 400, "wdth" 125, "ytlc" 500;
     }
 }
  
+/* where the animation is for the opsz change */
+.Optical-Size{
+    animation:Optical-SizeVariations 5s infinite;
+}
+@keyframes Optical-SizeVariations {
+    0%, 100%{
+        font-variation-settings: "opsz" 6, "wght" 400, "wdth" 100, "ytlc" 500;
+    }
+    50%{font-variation-settings: "opsz" 12, "wght" 400, "wdth" 100, "ytlc" 500;
+    }
+}
+
+/* where the animation is for the YTLC change */
+.YTLC{
+    animation:YTLCVariations 5s infinite;
+}
+@keyframes YTLCVariations {
+    0%, 100%{
+        font-variation-settings: "opsz" 12, "wght" 400, "wdth" 100, "ytlc" 450;
+    }
+    50%{font-variation-settings: "opsz" 12, "wght" 400, "wdth" 100, "ytlc" 550;
+    }
+}
+
+
 .marquee-container {
   overflow: hidden;
 }
