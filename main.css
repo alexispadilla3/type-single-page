@@ -20,7 +20,7 @@ transition: none !important; } }
 }
     
     body{
-    background-color: #E3FF94;
+    background-color: #d9d9d9;
     background-size: cover;
     font-family: 'Nunito Sans';
 
@@ -134,6 +134,14 @@ font-size: 80px;
 
 /*Number Styling*/
 
+.numbers-box {
+  position: absolute;
+  width: 1440px;              
+  height: 690px;
+  margin-top: 2040px;
+  background-color: #E3FF94;
+}
+
 .numbers-bg span {
   position: absolute;
   font-size: 470px;
@@ -143,67 +151,67 @@ font-size: 80px;
 }
 
 .one {
-  bottom: -2500px;
+  bottom: -2450px;
   right: 769px;
   font-variation-settings:  "opsz" 12, "wght" 700, "wdth" 100, "ytlc" 500;
 }
 
 .two {
-  bottom: -2500px;
+  bottom: -2450px;
   right: 530px;
   font-variation-settings:  "opsz" 12, "wght" 200, "wdth" 100, "ytlc" 500;
 
 }
 
 .three {
-  bottom: -2500px;
+  bottom: -2450px;
   right: 293px;
   font-variation-settings:  "opsz" 12, "wght" 500, "wdth" 100, "ytlc" 500;
   font-style:italic;
 }
 
 .four {
-  bottom: -2500px;
+  bottom: -2450px;
   right: 0px;
   font-variation-settings:  "opsz" 12, "wght" 900, "wdth" 100, "ytlc" 500;
 }
 
 .five {
-  bbottom: -2800px;
+  bottom: -2790px;
   left: -88px;
   font-variation-settings:  "opsz" 12, "wght" 200, "wdth" 100, "ytlc" 500;
   font-style:italic;
 }
 
 .six {
-  bottom: -2800px;
+  bottom: -2790px;
   left: 185px;
   font-variation-settings:  "opsz" 12, "wght" 600, "wdth" 75, "ytlc" 500;
 
 }
 
 .seven {
-  bottom: -2800px;
+  bottom: -2790px;
   left: 350px;
   font-variation-settings:  "opsz" 12, "wght" 800, "wdth" 75, "ytlc" 500;
   font-style:italic;
 }
 
 .eight {
-  bottom: -2800px;
+  bottom: -2790px;
   left: 610px;
   font-variation-settings:  "opsz" 12, "wght" 700, "wdth" 125, "ytlc" 500;
 }
 
 .nine {
-  bottom: -2800px;
+  bottom: -2790px;
   right: 270px;
   font-variation-settings:  "opsz" 12, "wght" 200, "wdth" 100, "ytlc" 500;
   font-style:italic;
 }
 
 .zero {
-  bottom: -2800px;
+  bottom: -2790px;
   right: 33px;
   font-variation-settings:  "opsz" 12, "wght" 400, "wdth" 100, "ytlc" 500;
   font-style:italic;
