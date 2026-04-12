@@ -165,37 +165,48 @@ font-size: 80px;
 .four {
   bottom: -2033px;
   right: 0px;
-   font-variation-settings:  "opsz" 12, "wght" 900, "wdth" 100, "ytlc" 500;
+  font-variation-settings:  "opsz" 12, "wght" 900, "wdth" 100, "ytlc" 500;
 }
 
 .five {
   bottom: -2400px;
   left: -75px;
+  font-variation-settings:  "opsz" 12, "wght" 200, "wdth" 100, "ytlc" 500;
+  font-style:italic;
 }
 
 .six {
   bottom: -2400px;
   left: 180px;
+  font-variation-settings:  "opsz" 12, "wght" 700, "wdth" 75, "ytlc" 500;
+
 }
 
 .seven {
   bottom: -2400px;
   left: 430px;
+  font-variation-settings:  "opsz" 12, "wght" 800, "wdth" 100, "ytlc" 500;
+  font-style:italic;
 }
 
 .eight {
   bottom: -2400px;
   left: 655px;
+  font-variation-settings:  "opsz" 12, "wght" 700, "wdth" 125, "ytlc" 500;
 }
 
 .nine {
   bottom: -2400px;
   right: 235px;
+  font-variation-settings:  "opsz" 12, "wght" 200, "wdth" 100, "ytlc" 500;
+  font-style:italic;
 }
 
 .zero {
   bottom: -2400px;
   right: -20px;
+  font-variation-settings:  "opsz" 12, "wght" 400, "wdth" 100, "ytlc" 500;
+  font-style:italic;
 }
 
 .hero{
