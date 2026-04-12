@@ -136,7 +136,7 @@ font-size: 80px;
 
 .numbers-bg span {
   position: absolute;
-  font-size: 500px;
+  font-size: 470px;
   font-weight: 800;
   color: black;
   line-height: 1;
@@ -177,34 +177,34 @@ font-size: 80px;
 
 .six {
   bottom: -2400px;
-  left: 180px;
-  font-variation-settings:  "opsz" 12, "wght" 700, "wdth" 75, "ytlc" 500;
+  left: 115px;
+  font-variation-settings:  "opsz" 12, "wght" 600, "wdth" 75, "ytlc" 500;
 
 }
 
 .seven {
   bottom: -2400px;
-  left: 430px;
-  font-variation-settings:  "opsz" 12, "wght" 800, "wdth" 100, "ytlc" 500;
+  left: 290px;
+  font-variation-settings:  "opsz" 12, "wght" 800, "wdth" 75, "ytlc" 500;
   font-style:italic;
 }
 
 .eight {
   bottom: -2400px;
-  left: 655px;
+  left: 557px;
   font-variation-settings:  "opsz" 12, "wght" 700, "wdth" 125, "ytlc" 500;
 }
 
 .nine {
   bottom: -2400px;
-  right: 235px;
+  right: 287px;
   font-variation-settings:  "opsz" 12, "wght" 200, "wdth" 100, "ytlc" 500;
   font-style:italic;
 }
 
 .zero {
   bottom: -2400px;
-  right: -20px;
+  right: 36px;
   font-variation-settings:  "opsz" 12, "wght" 400, "wdth" 100, "ytlc" 500;
   font-style:italic;
 }
