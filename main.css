@@ -170,41 +170,41 @@ font-size: 80px;
 
 .five {
   bottom: -2400px;
-  left: -75px;
+  left: -88px;
   font-variation-settings:  "opsz" 12, "wght" 200, "wdth" 100, "ytlc" 500;
   font-style:italic;
 }
 
 .six {
   bottom: -2400px;
-  left: 115px;
+  left: 185px;
   font-variation-settings:  "opsz" 12, "wght" 600, "wdth" 75, "ytlc" 500;
 
 }
 
 .seven {
   bottom: -2400px;
-  left: 290px;
+  left: 350px;
   font-variation-settings:  "opsz" 12, "wght" 800, "wdth" 75, "ytlc" 500;
   font-style:italic;
 }
 
 .eight {
   bottom: -2400px;
-  left: 557px;
+  left: 610px;
   font-variation-settings:  "opsz" 12, "wght" 700, "wdth" 125, "ytlc" 500;
 }
 
 .nine {
   bottom: -2400px;
-  right: 287px;
+  right: 270px;
   font-variation-settings:  "opsz" 12, "wght" 200, "wdth" 100, "ytlc" 500;
   font-style:italic;
 }
 
 .zero {
   bottom: -2400px;
-  right: 36px;
+  right: 33px;
   font-variation-settings:  "opsz" 12, "wght" 400, "wdth" 100, "ytlc" 500;
   font-style:italic;
 }
