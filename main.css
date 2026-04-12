@@ -144,27 +144,27 @@ font-size: 80px;
 
 .one {
   bottom: -2033px;
-  right: 727px;
+  right: 769px;
   font-variation-settings:  "opsz" 12, "wght" 700, "wdth" 100, "ytlc" 500;
 }
 
 .two {
   bottom: -2033px;
-  right: 499px;
+  right: 530px;
   font-variation-settings:  "opsz" 12, "wght" 200, "wdth" 100, "ytlc" 500;
 
 }
 
 .three {
   bottom: -2033px;
-  right: 241px;
+  right: 293px;
   font-variation-settings:  "opsz" 12, "wght" 500, "wdth" 100, "ytlc" 500;
   font-style:italic;
 }
 
 .four {
   bottom: -2033px;
-  right: -10px;
+  right: 0px;
    font-variation-settings:  "opsz" 12, "wght" 900, "wdth" 100, "ytlc" 500;
 }
 
