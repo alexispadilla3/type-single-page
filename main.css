@@ -24,7 +24,6 @@ transition: none !important; } }
     background-size: cover;
     font-family: 'Nunito Sans';
 
-
 }
 /* how the page wrapper will appear on mobile */
 .page-wrapper{
@@ -140,6 +139,26 @@ font-size: 80px;
   font-weight: 800;
   color: black;
   line-height: 1;
+}
+
+.one {
+  bottom: -2033px;
+  right: 727px;
+}
+
+.two {
+  bottom: -2033px;
+  right: 499px;
+}
+
+.three {
+  bottom: -2033px;
+  right: 241px;
+}
+
+.four {
+  bottom: -2033px;
+  right: -10px;
 }
 
 .five {
