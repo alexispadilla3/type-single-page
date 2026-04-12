@@ -143,67 +143,67 @@ font-size: 80px;
 }
 
 .one {
-  bottom: -2033px;
+  bottom: -2500px;
   right: 769px;
   font-variation-settings:  "opsz" 12, "wght" 700, "wdth" 100, "ytlc" 500;
 }
 
 .two {
-  bottom: -2033px;
+  bottom: -2500px;
   right: 530px;
   font-variation-settings:  "opsz" 12, "wght" 200, "wdth" 100, "ytlc" 500;
 
 }
 
 .three {
-  bottom: -2033px;
+  bottom: -2500px;
   right: 293px;
   font-variation-settings:  "opsz" 12, "wght" 500, "wdth" 100, "ytlc" 500;
   font-style:italic;
 }
 
 .four {
-  bottom: -2033px;
+  bottom: -2500px;
   right: 0px;
   font-variation-settings:  "opsz" 12, "wght" 900, "wdth" 100, "ytlc" 500;
 }
 
 .five {
-  bottom: -3000px;
+  bbottom: -2800px;
   left: -88px;
   font-variation-settings:  "opsz" 12, "wght" 200, "wdth" 100, "ytlc" 500;
   font-style:italic;
 }
 
 .six {
-  bottom: -3000px;
+  bottom: -2800px;
   left: 185px;
   font-variation-settings:  "opsz" 12, "wght" 600, "wdth" 75, "ytlc" 500;
 
 }
 
 .seven {
-  bottom: -3000px;
+  bottom: -2800px;
   left: 350px;
   font-variation-settings:  "opsz" 12, "wght" 800, "wdth" 75, "ytlc" 500;
   font-style:italic;
 }
 
 .eight {
-  bottom: -3000px;
+  bottom: -2800px;
   left: 610px;
   font-variation-settings:  "opsz" 12, "wght" 700, "wdth" 125, "ytlc" 500;
 }
 
 .nine {
-  bottom: -3000px;
+  bottom: -2800px;
   right: 270px;
   font-variation-settings:  "opsz" 12, "wght" 200, "wdth" 100, "ytlc" 500;
   font-style:italic;
 }
 
 .zero {
-  bottom: -3000px;
+  bottom: -2800px;
   right: 33px;
   font-variation-settings:  "opsz" 12, "wght" 400, "wdth" 100, "ytlc" 500;
   font-style:italic;
