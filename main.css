@@ -24,6 +24,7 @@ transition: none !important; } }
     background-size: cover;
     font-family: 'Nunito Sans';
 
+
 }
 /* how the page wrapper will appear on mobile */
 .page-wrapper{
@@ -144,21 +145,27 @@ font-size: 80px;
 .one {
   bottom: -2033px;
   right: 727px;
+  font-variation-settings:  "opsz" 12, "wght" 700, "wdth" 100, "ytlc" 500;
 }
 
 .two {
   bottom: -2033px;
   right: 499px;
+  font-variation-settings:  "opsz" 12, "wght" 200, "wdth" 100, "ytlc" 500;
+
 }
 
 .three {
   bottom: -2033px;
   right: 241px;
+  font-variation-settings:  "opsz" 12, "wght" 500, "wdth" 100, "ytlc" 500;
+  font-style:italic;
 }
 
 .four {
   bottom: -2033px;
   right: -10px;
+   font-variation-settings:  "opsz" 12, "wght" 900, "wdth" 100, "ytlc" 500;
 }
 
 .five {
@@ -205,13 +212,13 @@ font-size: 80px;
 .N {
   font-variation-settings: "wght" 300, "wdth" 90, "opsz" 8, "ytlc" 500;
   font-style:italic;
-   margin-left: -25px;
+  margin-left: -25px;
 }
 
 /* LIGHT */
 .u {
   font-variation-settings:  "wght" 1000, "wdth" 125, "opsz" 6, "ytlc" 540;
-   margin-left: -49px;
+  margin-left: -49px;
 }
 
 /* REGULAR */
