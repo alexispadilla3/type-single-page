@@ -128,84 +128,92 @@ font-size: 80px;
 .numbers-box {
   position: absolute;
   width: 1440px;              
-  height: 690px;
+  height: 320px;
   margin-top: 2040px;
-  background-color: #E3FF94;
+  background-color: #C891FF
 }
+
+.numbers-box-two {
+  position: absolute;
+  width: 1440px;              
+  height: 320px;
+  margin-top: 2360px;
+  background-color: #335CFF;
+}
+
 
 .numbers-bg span {
   position: absolute;
-  font-size: 470px;
+  font-size: 400px;
   font-weight: 800;
   color: black;
   line-height: 1;
 }
 
 .one {
-  bottom: -2450px;
-  right: 769px;
+  bottom: -2400px;
+  right: 1150px;
   font-variation-settings:  "opsz" 12, "wght" 700, "wdth" 100, "ytlc" 500;
 }
 
 .two {
-  bottom: -2450px;
-  right: 530px;
+  bottom: -2400px;
+  right: 900px;
   font-variation-settings:  "opsz" 12, "wght" 200, "wdth" 100, "ytlc" 500;
 
 }
 
 .three {
-  bottom: -2450px;
-  right: 293px;
+  bottom: -2400px;
+  right: 650px;
   font-variation-settings:  "opsz" 12, "wght" 500, "wdth" 100, "ytlc" 500;
   font-style:italic;
 }
 
 .four {
-  bottom: -2450px;
-  right: 0px;
+  bottom: -2400px;
+  right: 360px;
   font-variation-settings:  "opsz" 12, "wght" 900, "wdth" 100, "ytlc" 500;
 }
 
 .five {
-  bottom: -2790px;
-  left: 3px;
+  bottom: -2400px;
+  right: 120px;
   font-variation-settings:  "opsz" 12, "wght" 200, "wdth" 100, "ytlc" 500;
   font-style:italic;
 }
 
 .six {
-  bottom: -2790px;
-  left: 263px;
+  bottom: -2719px;
+  right: 1170px;
   font-variation-settings:  "opsz" 12, "wght" 600, "wdth" 75, "ytlc" 500;
 
 }
 
 .seven {
-  bottom: -2790px;
-  left: 410px;
+  bottom: -2719px;
+  right: 980px;
   font-variation-settings:  "opsz" 12, "wght" 800, "wdth" 75, "ytlc" 500;
   font-style:italic;
 }
 
 .eight {
-  bottom: -2790px;
-  left: 650px;
+  bottom: -2719px;
+  right: 605px;
   font-variation-settings:  "opsz" 12, "wght" 700, "wdth" 125, "ytlc" 500;
 }
 
 .nine {
-  bottom: -2790px;
-  right:246px;
+  bottom: -2719px;
+  right: 360px;
   font-variation-settings:  "opsz" 12, "wght" 200, "wdth" 100, "ytlc" 500;
   font-style:italic;
 }
 
 .zero {
-  bottom: -2790px;
-  right: 25px;
+  bottom: -2719px;
+  right: 67px;
   font-variation-settings:  "opsz" 12, "wght" 400, "wdth" 100, "ytlc" 500;
-  font-style:italic;
 }
 
 .hero{
@@ -342,9 +350,9 @@ margin-left: -105px;
 }
 @keyframes YTLCVariations {
     0%, 100%{
-        font-variation-settings: "opsz" 12, "wght" 400, "wdth" 100, "ytlc" 450;
+        font-variation-settings: "opsz" 12, "wght" 400, "wdth" 100, "YTLC" 450;
     }
-    50%{font-variation-settings: "opsz" 12, "wght" 400, "wdth" 100, "ytlc" 550;
+    50%{font-variation-settings: "opsz" 12, "wght" 400, "wdth" 100, "YTLC" 550;
     }
 }
 
@@ -415,5 +423,18 @@ h6{
     margin: 0;
     text-align: center;
     font-variation-settings: "wght" 120, "wdth" 0, "XXXX" 100;
+}
+
+/*Number Animations*/
+
+.six{
+    animation:widthVariations 5s infinite;
+}
+@keyframes widthVariations {
+    0%, 100%{
+        font-variation-settings: "opsz" 12, "wght" 200, "wdth" 75, "YTLC" 500;
+    }
+    50%{font-variation-settings: "opsz" 12, "wght" 1000, "wdth" 125, "YTLC" 500;
+    }
 }
 
