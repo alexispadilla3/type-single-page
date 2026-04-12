@@ -24,6 +24,7 @@ transition: none !important; } }
     background-size: cover;
     font-family: 'Nunito Sans';
 
+
 }
 /* how the page wrapper will appear on mobile */
 .page-wrapper{
@@ -135,30 +136,40 @@ font-size: 80px;
 
 .numbers-bg span {
   position: absolute;
-  font-size: 600px;
+  font-size: 500px;
   font-weight: 800;
   color: black;
   line-height: 1;
 }
 
+.five {
+  bottom: -2400px;
+  left: -75px;
+}
+
+.six {
+  bottom: -2400px;
+  left: 180px;
+}
+
 .seven {
-   bottom: -150px;
-  left: 300px;
+  bottom: -2400px;
+  left: 430px;
 }
 
 .eight {
-   bottom: -150px;
-  left: 500px;
+  bottom: -2400px;
+  left: 655px;
 }
 
 .nine {
-  bottom: -150px;
-  right: 200px;
+  bottom: -2400px;
+  right: 235px;
 }
 
 .zero {
-   bottom: -150px;
-  right: -50px;
+  bottom: -2400px;
+  right: -20px;
 }
 
 .hero{
