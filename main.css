@@ -21,7 +21,7 @@ transition: none !important; } }
 .page-wrapper{
     /* where to change the width of the columns on desktop view */
     width: min(100% - 3rem, 95ch);
-    margin-inline: auto;
+    margin-inline: 140px;
 }
 /* how the page wrapper appears on desktop */
 
@@ -51,9 +51,18 @@ grid-area: a;
 }
 /* CSS for the footer */
 footer{
-    background-color: #d9d9d9;
-    height:140px;
+  background-color: #ff0000;
+  height:140px;
+  width: 1440px;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  text-align: center;
+ margin-top: 800px;
+ font-size: 20px;
+ margin-left: -263px;
 }
+
 
 /* Outline button styles */
 .outline {
@@ -197,16 +206,6 @@ font-size: 80px;
 
 .numbers-bg span { color: #8F55BC; }
 .numbers-bg-two span { color: #BC7055; }
-
-
-.information{
-  display: flex;
-  justify-content: center; 
-  align-items: center; 
-  text-align: center;
- margin-top: 800px;
- font-size: 20px;
-}
 
 .one {
   bottom: -2400px;
