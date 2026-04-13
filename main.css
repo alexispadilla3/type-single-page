@@ -172,6 +172,7 @@ font-size: 80px;
   width: 1440px;              
   height: 320px;
   overflow: hidden;   /* Prevents huge numbers from spilling out */
+  margin-left: -263px;
 }
 
 .numbers-box {
