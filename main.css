@@ -52,7 +52,7 @@ grid-area: a;
 footer{
     background-color: #d9d9d9;
     height:200px;
-    margin-bottom: 500px;
+    margin-bottom: -2000px;
     margin-top: 700px;
 }
 
@@ -183,14 +183,6 @@ font-size: 80px;
   background-color: #C3B57D;
 }
 
-.download-box {
-  position: absolute;
-  width: 1440px;              
-  height: 127px;
-  margin-top: 1800px;
-  background-color: #C3B57D;
-}
-
 .numbers-bg span {
   position: absolute;
   font-size: 400px;
@@ -208,6 +200,13 @@ font-size: 80px;
 }
 
 
+.information{
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  text-align: center;
+  m
+}
 .one {
   bottom: -2400px;
   right: 1150px;
