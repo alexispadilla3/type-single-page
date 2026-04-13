@@ -58,15 +58,20 @@ footer{
 
 /* Outline button styles */
 .outline {
-    background-color: transparent;
-    color: #007bff;
-    border: 2px solid #007bff;
+    background-color: #BC7055;
+    color: #C3B57D;
     transition: all .3s ease;
+    position: absolute;
+    width: 200px;              
+    height: 50px;
+    margin-top: -149px;
+    margin-left: 1150px;
+    z-index: 10;
 }
 
 .outline:hover {
-    background-color: #007bff;
-    color: #fff;
+    background-color: #8a533f;
+    color: #C3B57D;
 }
 
 /* font styling area */
@@ -89,13 +94,6 @@ h3{
     margin-left: 104px;
     margin-top: 65px;
     color: #BC7055;
-}
-
-h4{
-   font-size: 70px;
-   margin-left: 830px;
-   margin-top: -650px;
-   color:  #8b8058;
 }
 
 h5{
@@ -136,7 +134,15 @@ font-size: 80px;
    margin-top: 330px;
 }
 
-/*Number Styling*/
+/*Box Styling*/
+/*Box Color*/
+.box {
+  padding: 20px;             /* space inside the box */
+  width: 1440px;              
+  height: 630px;
+  margin-top: -1100px;
+  background-color: #C3B57D;
+}
 
 .numbers-box {
   position: absolute;
@@ -329,15 +335,6 @@ margin-left: -105px;
   font-variation-settings: "wght" 600, "wdth" 85, "opsz" 10, "ytlc" 540;
   font-style:italic;
   margin-left: -67px;
-}
-
-/*Box Color*/
-.box {
-  padding: 20px;             /* space inside the box */
-  width: 1440px;              
-  height: 900px;
-  margin-top: -900px;
-  background-color: #C3B57D;
 }
 
 
