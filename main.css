@@ -56,6 +56,19 @@ footer{
     margin-top: 700px;
 }
 
+/* Outline button styles */
+.outline {
+    background-color: transparent;
+    color: #007bff;
+    border: 2px solid #007bff;
+    transition: all .3s ease;
+}
+
+.outline:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
 /* font styling area */
 
 h1{
