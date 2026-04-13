@@ -141,11 +141,20 @@ font-size: 80px;
   background-color: #C3B57D;
 }
 
-.download-box {
+.yellow-small-box {
   position: absolute;
   width: 1440px;              
-  height: 320px;
-  margin-top: 2760px;
+  height: 20px;
+  margin-top: 102px;
+  background-color: #C3B57D;
+}
+
+
+.yellow-small-box-two {
+  position: absolute;
+  width: 1440px;              
+  height: 127px;
+  margin-top: 1310px;
   background-color: #C3B57D;
 }
 
