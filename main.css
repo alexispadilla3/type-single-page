@@ -75,14 +75,14 @@ h3{
     font-size: 286px;
     margin-left: 104px;
     margin-top: 65px;
-    color: #335CFF;
+    color: #BC7055;
 }
 
 h4{
    font-size: 70px;
    margin-left: 830px;
    margin-top: -650px;
-   color: #865fae;
+   color:  #8b8058;
 }
 
 h5{
@@ -108,7 +108,7 @@ h5{
 }
 
 .rotate{
-  color: #C891FF
+  color: #8F55BC;
 }
 
 .axes{
@@ -130,7 +130,7 @@ font-size: 80px;
   width: 1440px;              
   height: 320px;
   margin-top: 2040px;
-  background-color: #C891FF
+  background-color: #A290D5;
 }
 
 .numbers-box-two {
@@ -138,7 +138,15 @@ font-size: 80px;
   width: 1440px;              
   height: 320px;
   margin-top: 2360px;
-  background-color: #335CFF;
+  background-color: #C3B57D;
+}
+
+.download-box {
+  position: absolute;
+  width: 1440px;              
+  height: 320px;
+  margin-top: 2760px;
+  background-color: #C3B57D;
 }
 
 
@@ -146,9 +154,18 @@ font-size: 80px;
   position: absolute;
   font-size: 400px;
   font-weight: 800;
-  color: black;
+  color: #8F55BC;
   line-height: 1;
 }
+
+.numbers-bg-two span {
+  position: absolute;
+  font-size: 400px;
+  font-weight: 800;
+  color: #BC7055;
+  line-height: 1;
+}
+
 
 .one {
   bottom: -2400px;
@@ -291,7 +308,7 @@ margin-left: -105px;
   width: 1440px;              
   height: 900px;
   margin-top: -900px;
-  background-color: #C891FF; 
+  background-color: #C3B57D;
 }
 
 
@@ -383,7 +400,7 @@ margin-left: -105px;
 
 /*Scroll Banner Box*/
 .marquee-track {
-  background-color: #335CFF; 
+  background-color: #A290D5;
   padding: 10px;             /* space inside */
   display: inline-block;     
 }

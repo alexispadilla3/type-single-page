@@ -12,7 +12,7 @@
   
   header {
     /* where to set the color of the nav bar */
-      background:#D9D9D9;
+      background:#BC7055;
       text-align: left;
       top:0px;
       position: fixed;
@@ -33,7 +33,7 @@
       padding-top:10px;
       top: 100%;
       left: 0px;
-      background: #C891FF;
+      background: #BC7055;
       width: 100%;
       transform: scale(1,0);
       transform-origin: top;
@@ -60,7 +60,7 @@
   }
   /* where to change the font color of the nav bar pop-up */
   nav a:hover {
-      color: #335CFF;
+      color: #ffcaa4;
   }
   
   .nav-checkbox:checked ~ nav {
@@ -151,7 +151,7 @@
       display: block;
       height: 1.5px;
       /* where to change color of underline on desktop nav */
-      background: #335CFF;
+      background: #ffcaa4;
       position: absolute;
       top: 1.1em;
       left: 0;
