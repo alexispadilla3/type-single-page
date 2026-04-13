@@ -67,6 +67,12 @@ footer{
     margin-top: -149px;
     margin-left: 1150px;
     z-index: 10;
+    border-radius: 10px;
+    font-size: 25px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
 }
 
 .outline:hover {
