@@ -158,6 +158,13 @@ font-size: 80px;
   background-color: #C3B57D;
 }
 
+.download-box {
+  position: absolute;
+  width: 1440px;              
+  height: 127px;
+  margin-top: 1800px;
+  background-color: #C3B57D;
+}
 
 .numbers-bg span {
   position: absolute;
