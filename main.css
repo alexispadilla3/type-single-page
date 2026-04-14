@@ -110,7 +110,7 @@ h4{
    color: #1b1b1b;
     font-variation-settings:  "opsz" 12, "wght" 800, "wdth" 100, "ytlc" 500;
     font-size: 20px;
-    margin-bottom: 12px;
+    margin-bottom: 13px;
 }
 
 h5{
@@ -295,13 +295,14 @@ font-size: 80px;
 
 .S, .a, .n2, .s1 {
  position: relative;
- top: -184px; /* adjust this value */
+ top: 10px; /* adjust this value */
 }
 
 .N {
   font-variation-settings: "wght" 300, "wdth" 90, "opsz" 8, "ytlc" 500;
   font-style:italic;
   margin-left: -25px;
+  top: -184px
 }
 
 /* LIGHT */
