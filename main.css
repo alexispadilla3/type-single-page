@@ -11,7 +11,7 @@ transition: none !important; } }
     }
     
     body{
-    background-color: #d9d9d9;
+    background-color: #bababa;
     background-size: cover;
     font-family: 'Nunito Sans';
 
@@ -51,7 +51,7 @@ grid-area: a;
 }
 /* CSS for the footer */
 footer{
-     background-color: #869464;
+     background-color: #bababa;
      position: absolute;
      width: 1440px;              
      height: 140px;
@@ -62,8 +62,8 @@ footer{
 
 /* Outline button styles */
 .outline {
-    background-color: #869464;
-    color: #C3B57D;
+    background-color: #1b1b1b;
+    color: #93A6B9;
     transition: all .3s ease;
     position: absolute;
     width: 200px;              
@@ -80,20 +80,20 @@ footer{
 }
 
 .outline:hover {
-    background-color:#69754e;
-    color: #C3B57D;
+    background-color:#3e3e3e;
+    color:#93A6B9;
 }
 
 /* font styling area */
 
 h1{
-   color: #000000;
+   color: #1b1b1b;
     font-variation-settings:  "opsz" 12, "wght" 800, "wdth" 100, "ytlc" 500;
     font-size: 20px;
     margin-top: 5px;
 }
 h2{
-    color: #000000;
+    color: #1b1b1b;
     font-variation-settings:  "opsz" 12, "wght" 800, "wdth" 100, "ytlc" 500;
     font-size: 80px;
     margin-top: -10px;
@@ -103,12 +103,19 @@ h3{
     font-size: 20vw;
     margin-left: 104px;
     margin-top: 65px;
-    color:#869464;
+    color:#1b1b1b;
+}
+
+h4{
+   color: #1b1b1b;
+    font-variation-settings:  "opsz" 12, "wght" 800, "wdth" 100, "ytlc" 500;
+    font-size: 20px;
+    margin-bottom: 12px;
 }
 
 h5{
    font-size: 80px;
-   color: #000000;
+   color: #1b1b1b;
    font-variation-settings:  "opsz" 12, "wght" 800, "wdth" 100, "ytlc" 500;
    margin-top: 550px;
 }
@@ -125,11 +132,12 @@ h5{
 
 .languages-text{
   margin-top: -10px;
-  font-size: 20px; 
+  font-size: 20px;
+  color: #1b1b1b; 
 }
 
 .rotate{
-  color: #8F55BC;
+  color: #93A6B9;
 }
 
 .axes{
@@ -139,7 +147,7 @@ h5{
 
 .character{
 font-size: 80px;
-   color: #000000;
+   color: #1b1b1b;
    font-variation-settings:  "opsz" 12, "wght" 800, "wdth" 100, "ytlc" 500;
    margin-top: 330px;
 }
@@ -151,7 +159,7 @@ font-size: 80px;
   width: 1440px;              
   height: 630px;
   margin-top: -1100px;
-  background-color: #BBCC97;
+  background-color: #93A6B9;
 }
 
 .yellow-small-box {
@@ -159,7 +167,7 @@ font-size: 80px;
   width: 1440px;              
   height: 20px;
   margin-top: 102px;
-  background-color: #BBCC97;
+  background-color: #67635B;
 }
 
 
@@ -168,7 +176,7 @@ font-size: 80px;
   width: 1440px;              
   height: 127px;
   margin-top: 1310px;
-  background-color: #BBCC97;
+  background-color: #67635B;
 }
 
 /* The Background Boxes */
@@ -182,12 +190,12 @@ font-size: 80px;
 
 .numbers-box {
   margin-top: 1800px;
-  background-color: #A290D5;
+  background-color: #93A6B9;
 }
 
 .numbers-box-two {
   margin-top: 2120px;
-  background-color: #BBCC97;
+  background-color: #1b1b1b;
 }
 
 /* The Number Styling */
@@ -200,8 +208,8 @@ font-size: 80px;
   top: 10px;       
 }
 
-.numbers-bg span { color: #8F55BC; }
-.numbers-bg-two span { color: #BC7055; }
+.numbers-bg span { color: #1b1b1b; }
+.numbers-bg-two span { color: #93A6B9; }
 
 
 .information{
@@ -418,7 +426,7 @@ margin-left: -105px;
 .marquee-track {
   display: flex;
   width: max-content;
-  animation: marquee 20s linear infinite;
+  animation: marquee 35s linear infinite;
 }
 
 .marquee-track span {
@@ -437,7 +445,7 @@ margin-left: -105px;
 
 /*Scroll Banner Box*/
 .marquee-track {
-  background-color: #A290D5;
+  background-color:#1b1b1b;
   padding: 10px;             /* space inside */
   display: inline-block;     
 }
@@ -458,9 +466,9 @@ h6{
 /*Number Animations*/
 
 .one{
-    animation:widthVariations 5s infinite;
+    animation:one-animVariations 5s infinite;
 }
-@keyframes widthVariations {
+@keyframes one-animVariations {
     0%, 100%{
         font-variation-settings: "opsz" 12, "wght" 700, "wdth" 75, "YTLC" 500;
     }
@@ -468,9 +476,9 @@ h6{
     }
 }
 .three{
-    animation:weightVariations 5s infinite;
+    animation:three-animVariations 5s infinite;
 }
-@keyframes weightVariations {
+@keyframes three-animVariations {
     0%, 100%{
         font-variation-settings: "opsz" 12, "wght" 200, "wdth" 125, "YTLC" 500;
     }
@@ -479,9 +487,9 @@ h6{
 }
 
 .eight{
-    animation:weightVariations 5s infinite;
+    animation:eight-animVariations 5s infinite;
 }
-@keyframes weightVariations {
+@keyframes eight-animVariations {
     0%, 100%{
         font-variation-settings: "opsz" 12, "wght" 200, "wdth" 125, "YTLC" 500;
     }
@@ -490,9 +498,9 @@ h6{
 }
 
 .zero{
-    animation:widthVariations 5s infinite;
+    animation:zero-animVariations 5s infinite;
 }
-@keyframes widthVariations {
+@keyframes zero-animVariations {
     0%, 100%{
         font-variation-settings: "opsz" 12, "wght" 400, "wdth" 75, "YTLC" 500;
     }
@@ -512,9 +520,9 @@ h6{
 }
 
 .u{
-    animation:YTLCVariations 5s infinite;
+    animation:u-animVariations 5s infinite;
 }
-@keyframes YTLCVariations {
+@keyframes u-animVariations {
     0%, 100%{
         font-variation-settings: "opsz" 12, "wght" 800, "wdth" 75, "YTLC" 540;
     }

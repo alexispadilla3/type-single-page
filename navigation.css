@@ -7,12 +7,12 @@
   }
 
   h1{
-    color: #000000;
+    color: #93A6B9;
   }
   
   header {
     /* where to set the color of the nav bar */
-      background:#BC7055;
+      background:#1b1b1b;
       text-align: left;
       top:0px;
       position: fixed;
@@ -33,7 +33,7 @@
       padding-top:10px;
       top: 100%;
       left: 0px;
-      background: #BC7055;
+      background: #1b1b1b;;
       width: 100%;
       transform: scale(1,0);
       transform-origin: top;
@@ -52,7 +52,7 @@
   }
   /* where to change the color of the font in the nav bar */
   nav a {
-      color: rgb(0, 0, 0);
+      color: #93A6B9;
       text-decoration: none;
       font-size: 1.2rem;
       opacity: 0;
@@ -87,7 +87,7 @@
   
           display: block;
           /* color of the hamburger menu */
-          background: rgb(0, 0, 0);
+          background: #93A6B9;
           /* how far the hamburger menu is from the top */
           margin-top:7px;
           height: 3px;
