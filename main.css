@@ -25,16 +25,107 @@ transition: none !important; } }
 }
 /* how the page wrapper appears on desktop */
 
-@media only screen and (min-width:800px){
-.page-wrapper{
-display: grid;
-grid-gap: 25px;
-grid-template-columns: 1fr; 
-grid-template-rows: auto;
-grid-template-areas: 
-    "v"
-    "h"
-    "a";
+@media only screen and (min-width: 800px) {
+  .page-wrapper {
+    display: grid;
+    grid-gap: 25px;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "v"
+      "h"
+      "a";
+  }
+
+  #history { grid-area: v; }
+  #variations { grid-area: v; }
+  #alphabet { grid-area: a; }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1440px) {
+ /* TYPOGRAPHY SCALE */
+  h1 { font-size: 1.25rem; }
+  h2 { font-size: 5rem; }
+  h3 { font-size: 12vw; }
+  h4 { font-size: 1.25rem; }
+  h5 { font-size: 5rem; }
+
+  .history-para,
+  .languages-text,
+  .information,
+  h4 {
+    font-size: 1.25rem;
+  }
+
+  .letter-text {
+    font-size: 2.5rem;
+  }
+
+  .axes {
+    font-size: 1.25rem;
+  }
+
+  .character {
+    font-size: 5rem;
+  }
+
+  /* HERO */
+  .hero-type {
+  display: flex;
+  font-size: 6rem;
+  line-height: 1;
+}
+
+  /* BOXES (stop fixed layout stretching) */
+  .box {
+    width: 100%;
+    max-width: 90rem;
+    height: auto;
+    margin-top: 0;
+  }
+
+  /* NUMBER SECTIONS */
+  .numbers-box,
+  .numbers-box-two {
+    width: 100%;
+    max-width: 90rem;
+    height: 20rem;
+    margin-left: 0;
+  }
+
+  /* BUTTON */
+  .outline {
+    width: 12.5rem;
+    height: 3.125rem;
+    right: 5.625rem;
+  }
+
+  /* MARQUEE */
+  .marquee-track span {
+    font-size: 4rem;
+  }
+
+  /* REMOVE SOME EXTREME OFFSETS (KEY FIX) */
+  .S, .a, .n2, .s1 {
+    top: 0;
+  }
+
+  .N, .u {
+    top: 0;
+  }
+
+
+  footer,
+  .box,
+  .yellow-small-box,
+  .yellow-small-box-two,
+  .numbers-box,
+  .numbers-box-two {
+    width: 100%;
+    max-width: 90rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
 }
 
 #history {
@@ -48,12 +139,13 @@ grid-area: v;
 #alphabet {
 grid-area: a;
 }
-}
+
 /* CSS for the footer */
 footer{
      background-color: #bababa;
      position: absolute;
-     width: 1440px;              
+     width: 100%;
+     max-width: 90rem;            
      height: 140px;
      margin-left: -263px;
      margin-top: 2440px;
@@ -100,11 +192,16 @@ h2{
 }
 
 h3{
-    font-size: 20vw;
-    margin-left: 104px;
-    margin-top: 65px;
-    color:#1b1b1b;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0px;            /* controls spacing between letters */
+  font-size: 20vw;
+  margin: 65px 0 0 104px;
+  line-height: 1;
+   color:#1b1b1b;
 }
+   
+
 
 h4{
    color: #1b1b1b;
@@ -155,11 +252,12 @@ font-size: 80px;
 /*Box Styling*/
 /*Box Color*/
 .box {
-  padding: 20px;             /* space inside the box */
-  width: 1440px;              
+  width: 100%;
+  max-width: 1440px;
   height: 630px;
-  margin-top: -1100px;
   background-color: #93A6B9;
+  position: relative;
+  margin: 0 auto;
 }
 
 .yellow-small-box {
@@ -289,80 +387,18 @@ font-size: 80px;
 
 .hero{
   align-self: start;
+  position: relative;
+  display: block;
 }
 
 
 
 .S, .a, .n2, .s1 {
  position: relative;
- top: 10px; /* adjust this value */
-}
-
-.N {
-  font-variation-settings: "wght" 300, "wdth" 90, "opsz" 8, "ytlc" 500;
-  font-style:italic;
-  margin-left: -25px;
-  top: -184px
-}
-
-/* LIGHT */
-.u {
-  font-variation-settings:  "wght" 1000, "wdth" 125, "opsz" 6, "ytlc" 540;
-  margin-left: -49px;
-}
-
-/* REGULAR */
-.n1 {
-  font-variation-settings: "wght" 800, "wdth" 75, "opsz" 12, "ytlc" 440;
-  font-style:italic; 
-  margin-left: -75px;
-}
-
-/* BOLD */
-.i {
-  font-variation-settings: "wght" 500, "wdth" 75, "opsz" 8, "ytlc" 540;
-  margin-left: -54px;
-}
-
-.t {
-  font-variation-settings: "wght" 200, "wdth" 100, "opsz" 6, "ytlc" 540;
-font-style:italic;
-margin-left: -105px;
-}
-
-.o {
-  font-variation-settings: "wght" 900, "wdth" 125, "opsz" 12, "ytlc" 440;
-  margin-left: -40px;
-}
-
-.S {
-  font-variation-settings: "wght" 700, "wdth" 125, "opsz" 12, "ytlc" 500;
-  margin-left: -17px;
-}
-
-.a {
-  font-variation-settings: "wght" 400, "wdth" 75, "opsz" 12, "ytlc" 440;
-  margin-left: -60px;
-}
-
-.n2 {
-  font-variation-settings: "wght" 200, "wdth" 115, "opsz" 9, "ytlc" 500;
-  font-style:italic;
-  margin-left: -90px;
-}
-
-.s1 {
-  font-variation-settings: "wght" 600, "wdth" 85, "opsz" 10, "ytlc" 540;
-  font-style:italic;
-  margin-left: -67px;
+ top: 288px; /* adjust this value */
 }
 
 
-/* Overall sizing */
-.hero-type {
-  font-size: 6rem;
-  line-height: 0.8;
-}
 
 @keyframes weightChange {
     0%, 100%{
@@ -509,15 +545,17 @@ h6{
     }
 }
 
-.N{
-    animation:widthVariations 5s infinite;
+.n {
+  animation: N-anim 5s infinite;
 }
-@keyframes widthVariations {
-    0%, 100%{
-        font-variation-settings: "opsz" 8, "wght" 300, "wdth" 75, "YTLC" 500;
-    }
-    50%{font-variation-settings: "opsz" 8, "wght" 300, "wdth" 125, "YTLC" 500;
-    }
+
+@keyframes N-anim {
+  0%, 100% {
+    font-variation-settings: "opsz" 8, "wght" 300, "wdth" 75, "ytlc" 500;
+  }
+  50% {
+    font-variation-settings: "opsz" 8, "wght" 300, "wdth" 125, "ytlc" 500;
+  }
 }
 
 .u{
@@ -532,11 +570,11 @@ h6{
 }
 
 .n1{
-    animation:n1-animVariations 5s infinite;
+    animation:n1-animVariations 2s infinite;
 }
 @keyframes n1-animVariations {
     0%, 100%{
-        font-variation-settings: "opsz" 8, "wght" 700, "wdth" 1255, "YTLC" 500;
+        font-variation-settings: "opsz" 8, "wght" 700, "wdth" 125, "YTLC" 500;
     }
     50%{font-variation-settings: "opsz" 8, "wght" 700, "wdth" 75, "YTLC" 500;
     }
@@ -567,13 +605,13 @@ h6{
 
 
 .o{
-    animation:o-anim 5s infinite;
+    animation:o-anim 2s infinite;
 }
 @keyframes o-anim {
     0%, 100%{
         font-variation-settings: "opsz" 12, "wght" 500, "wdth" 75, "YTLC" 450;
     }
-    50%{font-variation-settings: "opsz" 12, "wght" 900, "wdth" 1255, "YTLC" 450;
+    50%{font-variation-settings: "opsz" 12, "wght" 900, "wdth" 125, "YTLC" 450;
     }
 }
 
@@ -589,11 +627,11 @@ h6{
 }
 
 .a{
-    animation:a-anim 5s infinite;
+    animation:a-anim 2s infinite;
 }
 @keyframes a-anim {
     0%, 100%{
-        font-variation-settings: "opsz"12, "wght" 400, "wdth" 1255, "YTLC" 500;
+        font-variation-settings: "opsz"12, "wght" 400, "wdth" 125, "YTLC" 500;
     }
     50%{font-variation-settings: "opsz" 12, "wght" 1000, "wdth" 75, "YTLC" 500;
     }
