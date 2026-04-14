@@ -51,7 +51,7 @@ grid-area: a;
 }
 /* CSS for the footer */
 footer{
-     background-color: #BC7055;
+     background-color: #869464;
      position: absolute;
      width: 1440px;              
      height: 140px;
@@ -62,7 +62,7 @@ footer{
 
 /* Outline button styles */
 .outline {
-    background-color: #BC7055;
+    background-color: #869464;
     color: #C3B57D;
     transition: all .3s ease;
     position: absolute;
@@ -80,7 +80,7 @@ footer{
 }
 
 .outline:hover {
-    background-color: #8a533f;
+    background-color:#69754e;
     color: #C3B57D;
 }
 
@@ -103,7 +103,7 @@ h3{
     font-size: 20vw;
     margin-left: 104px;
     margin-top: 65px;
-    color: #BC7055;
+    color:#869464;
 }
 
 h5{
@@ -151,7 +151,7 @@ font-size: 80px;
   width: 1440px;              
   height: 630px;
   margin-top: -1100px;
-  background-color: #C3B57D;
+  background-color: #BBCC97;
 }
 
 .yellow-small-box {
@@ -159,7 +159,7 @@ font-size: 80px;
   width: 1440px;              
   height: 20px;
   margin-top: 102px;
-  background-color: #C3B57D;
+  background-color: #BBCC97;
 }
 
 
@@ -168,7 +168,7 @@ font-size: 80px;
   width: 1440px;              
   height: 127px;
   margin-top: 1310px;
-  background-color: #C3B57D;
+  background-color: #BBCC97;
 }
 
 /* The Background Boxes */
@@ -187,7 +187,7 @@ font-size: 80px;
 
 .numbers-box-two {
   margin-top: 2120px;
-  background-color: #C3B57D;
+  background-color: #BBCC97;
 }
 
 /* The Number Styling */
