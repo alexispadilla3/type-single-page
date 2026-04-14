@@ -453,31 +453,7 @@ h6{
     margin-left: 0px;
 }
 
-/* variable font that changes on hover */
-.variable-font{
-    font-weight:1 ;
-    height:100vh;
-    font-size: 10em;
-    display:grid;
-    place-content: center;
-    margin: 0;
-    text-align: center;
-    font-variation-settings: "wght" 40, "wdth" 0, "XXXX" 1;
-    transition: 
-        font-weight 500ms,
-        font-variation-settings 3s;
-}
 
-.variable-font:hover{
-    font-weight:500 ;
-    height:100vh;
-    font-size: 7em;
-    display:grid;
-    place-content: center;
-    margin: 0;
-    text-align: center;
-    font-variation-settings: "wght" 120, "wdth" 0, "XXXX" 100;
-}
 
 /*Number Animations*/
 
@@ -523,6 +499,126 @@ h6{
     50%{font-variation-settings: "opsz" 12, "wght" 400, "wdth" 125, "YTLC" 500;
     }
 }
+
+.N{
+    animation:widthVariations 5s infinite;
+}
+@keyframes widthVariations {
+    0%, 100%{
+        font-variation-settings: "opsz" 8, "wght" 300, "wdth" 75, "YTLC" 500;
+    }
+    50%{font-variation-settings: "opsz" 8, "wght" 300, "wdth" 125, "YTLC" 500;
+    }
+}
+
+.u{
+    animation:YTLCVariations 5s infinite;
+}
+@keyframes YTLCVariations {
+    0%, 100%{
+        font-variation-settings: "opsz" 12, "wght" 800, "wdth" 75, "YTLC" 540;
+    }
+    50%{font-variation-settings: "opsz" 12, "wght" 200, "wdth" 125, "YTLC" 440;
+    }
+}
+
+.n1{
+    animation:n1-animVariations 5s infinite;
+}
+@keyframes n1-animVariations {
+    0%, 100%{
+        font-variation-settings: "opsz" 8, "wght" 700, "wdth" 1255, "YTLC" 500;
+    }
+    50%{font-variation-settings: "opsz" 8, "wght" 700, "wdth" 75, "YTLC" 500;
+    }
+}
+
+
+.i{
+    animation:i-animVariations 5s infinite;
+}
+@keyframes i-animVariations {
+    0%, 100%{
+        font-variation-settings: "opsz" 8, "wght" 300, "wdth" 90, "YTLC" 440;
+    }
+    50%{font-variation-settings: "opsz" 8, "wght" 300, "wdth" 90, "YTLC" 550;
+    }
+}
+
+.t{
+    animation:t-animVariations 5s infinite;
+}
+@keyframes t-animVariations {
+    0%, 100%{
+        font-variation-settings: "opsz" 8, "wght" 500, "wdth" 90, "YTLC" 440;
+    }
+    50%{font-variation-settings: "opsz" 8, "wght" 300, "wdth" 90, "YTLC" 550;
+    }
+}
+
+
+.o{
+    animation:o-anim 5s infinite;
+}
+@keyframes o-anim {
+    0%, 100%{
+        font-variation-settings: "opsz" 12, "wght" 500, "wdth" 75, "YTLC" 450;
+    }
+    50%{font-variation-settings: "opsz" 12, "wght" 900, "wdth" 1255, "YTLC" 450;
+    }
+}
+
+.S{
+    animation:S-anim 5s infinite;
+}
+@keyframes S-anim {
+    0%, 100%{
+        font-variation-settings: "opsz" 6, "wght" 200, "wdth" 75, "YTLC" 440;
+    }
+    50%{font-variation-settings: "opsz" 12, "wght" 700, "wdth" 125, "YTLC" 500;
+    }
+}
+
+.a{
+    animation:a-anim 5s infinite;
+}
+@keyframes a-anim {
+    0%, 100%{
+        font-variation-settings: "opsz"12, "wght" 400, "wdth" 1255, "YTLC" 500;
+    }
+    50%{font-variation-settings: "opsz" 12, "wght" 1000, "wdth" 75, "YTLC" 500;
+    }
+}
+
+
+.n2{
+    animation:n2-animVariations 5s infinite;
+}
+@keyframes n2-animVariations {
+    0%, 100%{
+        font-variation-settings: "opsz" 8, "wght" 200, "wdth" 75, "YTLC" 440;
+    }
+    50%{font-variation-settings: "opsz" 8, "wght" 200, "wdth" 115, "YTLC" 540;
+    }
+}
+
+.s1{
+    animation:s1-animVariations 5s infinite;
+}
+@keyframes s1-animVariations {
+    0%, 100%{
+        font-variation-settings: "opsz" 8, "wght" 600, "wdth" 75, "YTLC" 440;
+    }
+    50%{font-variation-settings: "opsz" 8, "wght" 200, "wdth" 115, "YTLC" 540;
+    }
+}
+
+
+
+
+
+
+
 
 
 
