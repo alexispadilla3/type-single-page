@@ -2,8 +2,6 @@
 *,*::before, *::after { animation: none !important; 
 transition: none !important; } }
 
-
-
 @font-face {
     src: url("fonts/NunitoSans-VariableFont_YTLC,opsz,wdth,wght.woff2") format("woff2");
     font-family: 'Nunito Sans';
@@ -365,7 +363,7 @@ font-size: 3.125rem;
 
 .numbers-box-two {
   margin-top: 14.375rem;
-  background-color: #1b1b1b;
+  background-color: #412222;
 }
 /* Desktop */
 @media (min-width: 800px) {
@@ -390,7 +388,7 @@ font-size: 3.125rem;
   }
 }
 
-.numbers-bg span { color: #1b1b1b; }
+.numbers-bg span { color: #412222; }
 .numbers-bg-two span { color: #93A6B9; }
 
 
@@ -566,7 +564,7 @@ font-size: 3.125rem;
 }
 
 .marquee-track {
-  background-color: #1b1b1b;
+  background-color: #412222;
   padding: 10px;
   display: inline-block;
   height: 65px; /* mobile */
