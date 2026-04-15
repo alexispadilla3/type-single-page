@@ -553,10 +553,10 @@ h6{
 }
 
 .n {
-  animation: N-anim 5s infinite;
+  animation: n-anim 5s infinite;
 }
 
-@keyframes N-anim {
+@keyframes n-anim {
   0%, 100% {
     font-variation-settings: "opsz" 8, "wght" 300, "wdth" 75, "YTLC" 500;
   }
