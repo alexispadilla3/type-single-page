@@ -226,11 +226,12 @@ h5{
    font-size: 50px;
    color: #1b1b1b;
    font-variation-settings:  "opsz" 12, "wght" 800, "wdth" 100, "ytlc" 500;
-   margin-top: 550px;
+   margin-top: 90px;
 }
 @media (min-width: 800px) {
   h5 {
     font-size: 80px; /* desktop */
+     margin-top: 550px;
   }
 }
 
@@ -307,7 +308,7 @@ font-size: 50px;
   width: 100%;        /* better for responsiveness */
   max-width: 1440px;
   height: 10px;       /* mobile height */
-  margin-top: 102px;
+  margin-top: 90px; /*Mobil*/
   background-color: #67635B;
 }
 
@@ -315,6 +316,7 @@ font-size: 50px;
 @media (min-width: 800px) {
   .yellow-small-box {
     height: 20px;
+     margin-top: 102px;
   }
 }
 
@@ -322,8 +324,8 @@ font-size: 50px;
   position: absolute;
   width: 100%;        /* better for responsiveness */
   max-width: 1440px;
-  height: 10px;       /* mobile height */
-  margin-top: 1310px;
+  height: 70px;       /* mobile height */
+  margin-top: 1450px;
   background-color: #67635B;
 }
 
@@ -331,21 +333,22 @@ font-size: 50px;
 @media (min-width: 800px) {
   .yellow-small-box-two {
     height: 127px;
+    margin-top: 1310px;
   }
 }
-
+ 
 
 /* The Background Boxes */
 .numbers-box,
 .numbers-box-two {
-  position: absolute;
+  position: absolute; 
   width: 100%;
-  height: 200px; /* mobile height (smaller) */
+  height: 200px; 
   overflow: hidden;
-  left: 0;
-  right: 0;
-  margin-left: auto;
-  margin-right: auto;
+ 
+  display: flex;
+  justify-content: space-around; 
+  align-items: center;
 }
 
 /* Desktop */
@@ -375,6 +378,12 @@ font-size: 50px;
   font-weight: 800;
   line-height: 0.8;  
   top: 10px;       
+}
+@media (max-width: 800px) {
+  .numbers-bg span,
+  .numbers-bg-two span {
+    font-size: 150px;
+  }
 }
 
 .numbers-bg span { color: #1b1b1b; }
@@ -564,11 +573,13 @@ font-size: 50px;
   padding: 10px;
   display: inline-block;
   height: 65px; /* mobile */
+  margin-top: 30px;
 }
 
 @media (min-width: 800px) {
   .marquee-track {
     height: 115.5px; /* desktop */
+     margin-top: 0px;
   }
 }
 
