@@ -326,8 +326,8 @@ font-size: 50px;
   position: absolute;
   width: 100%;        /* better for responsiveness */
   max-width: 1440px;
-  height: 70px;       /* mobile height */
-  margin-top: 1400px;
+  height: 75px;       /* mobile height */
+  margin-top: 1430px;
   background-color: #67635B;
 }
 
@@ -586,7 +586,12 @@ font-size: 50px;
 }
 
 .second-marquee{
-  transform: translateY(1200px);
+  transform: translateY(1310px);
+}
+@media (min-width: 800px) {
+  .marquee-track {
+    transform: translateY(1200px);
+  }
 }
 
 h6{
