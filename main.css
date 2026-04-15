@@ -102,15 +102,8 @@ transition: none !important; } }
   .marquee-track span {
     font-size: 4rem;
   }
+}
 
-  /* REMOVE SOME EXTREME OFFSETS (KEY FIX) */
-  .S, .a, .n2, .s1 {
-    top: 0;
-  }
-
-  .N, .u {
-    top: 0;
-  }
 
 
 .box,
@@ -127,7 +120,7 @@ footer {
   right: 0;
 }
 
-}
+
 
 #history {
     grid-area: v; /* This tells 'History' to sit in the first column ('v') */
@@ -240,11 +233,11 @@ h5{
 
 .letter-text{
   font-size:-0.625rem;
-  margin-top: 1.25rem;
+  margin-top: -70px;
 }
 @media (min-width: 800px) {
   .letter-text {
-    margin-top: -90px; /* desktop */
+    margin-top: -130px; /* desktop */
   }
 }
 
@@ -483,13 +476,6 @@ font-size: 3.125rem;
   align-self: start;
   position: relative;
   display: block;
-}
-
-
-
-.S, .a, .n2, .s1 {
- position: relative;
- top: 288px; /* adjust this value */
 }
 
 
