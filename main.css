@@ -363,13 +363,26 @@ font-size: 50px;
 
 
 .numbers-box {
-  margin-top: 1800px;
+  margin-top:20px;
   background-color: #93A6B9;
 }
+/* Desktop */
+@media (min-width: 800px) {
+  .yellow-small-box-two {
+    margin-top: 1800px;
+  }
+}
+ 
 
 .numbers-box-two {
-  margin-top: 2120px;
+  margin-top: 220px;
   background-color: #1b1b1b;
+}
+/* Desktop */
+@media (min-width: 800px) {
+  .yellow-small-box-two {
+    margin-top: 2120px;
+  }
 }
 
 /* The Number Styling */
