@@ -241,6 +241,7 @@ h5{
   color: #93A6B9;
 }
 
+
 .axes{
   font-size: 20px;
   margin-top: -140px;
@@ -273,25 +274,59 @@ font-size: 80px;
 
 .yellow-small-box {
   position: absolute;
-  width: 1440px;              
-  height: 20px;
+  width: 100%;        /* better for responsiveness */
+  max-width: 1440px;
+  height: 10px;       /* mobile height */
   margin-top: 102px;
   background-color: #67635B;
 }
 
+/* Desktop */
+@media (min-width: 800px) {
+  .yellow-small-box {
+    height: 20px;
+  }
+}
 
 .yellow-small-box-two {
   position: absolute;
-  width: 1440px;              
-  height: 127px;
+  width: 100%;        /* better for responsiveness */
+  max-width: 1440px;
+  height: 10px;       /* mobile height */
   margin-top: 1310px;
   background-color: #67635B;
+}
+
+/* Desktop */
+@media (min-width: 800px) {
+  .yellow-small-box-two {
+    height: 127px;
+  }
+}
+
+
+/* The Background Boxes */
+.numbers-box,
+.numbers-box-two {
+  position: absolute;
+  width: 100%;
+  height: 120px; /* mobile height (smaller) */
+  overflow: hidden;
+  margin-left: -263px;
+}
+
+/* Desktop */
+@media (min-width: 800px) {
+  .numbers-box,
+  .numbers-box-two {
+    height: 20px; /* desktop height */
+  }
 }
 
 /* The Background Boxes */
 .numbers-box, .numbers-box-two {
   position: absolute; /* Keep absolute to match your layout style */
-  width: 1440px;              
+  width: 100%;              
   height: 320px;
   overflow: hidden;   /* Prevents huge numbers from spilling out */
   margin-left: -263px;
@@ -478,7 +513,7 @@ font-size: 80px;
 }
 
 .marquee-track span {
-  font-size: 70px;
+  font-size: 32px;
   white-space: nowrap;
 }
 
@@ -490,11 +525,17 @@ font-size: 80px;
     transform: translateX(-50%);
   }
 }
+@media (min-width: 800px) {
+  .marquee-track span {
+    font-size: 70px; /* desktop */
+  }
+}
+
 .marquee-track {
   background-color: #1b1b1b;
   padding: 10px;
   display: inline-block;
-  height: 50px; /* mobile */
+  height: 65px; /* mobile */
 }
 
 @media (min-width: 800px) {
