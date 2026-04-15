@@ -198,10 +198,14 @@ h3{
   font-size: 20vw;
   margin: 65px 0 0 104px;
   line-height: 1;
+  position: relative;
+  z-index: 1;
    color:#1b1b1b;
 }
    
-
+h3 span {
+  display: inline-block;
+}
 
 h4{
    color: #1b1b1b;
@@ -256,8 +260,11 @@ font-size: 80px;
   max-width: 1440px;
   height: 630px;
   background-color: #93A6B9;
-  position: relative;
   margin: 0 auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
 }
 
 .yellow-small-box {
@@ -413,7 +420,7 @@ font-size: 80px;
 }
 @keyframes weightVariations {
     0%, 100%{
-        font-variation-settings: "opsz" 126, "wght" 200, "wdth" 100, "ytlc" 500;
+        font-variation-settings: "opsz" 12, "wght" 200, "wdth" 100, "ytlc" 500;
     }
     50%{font-variation-settings: "opsz" 12, "wght" 1000, "wdth" 100, "ytlc" 500;
     }
@@ -551,10 +558,10 @@ h6{
 
 @keyframes N-anim {
   0%, 100% {
-    font-variation-settings: "opsz" 8, "wght" 300, "wdth" 75, "ytlc" 500;
+    font-variation-settings: "opsz" 8, "wght" 300, "wdth" 75, "YTLC" 500;
   }
   50% {
-    font-variation-settings: "opsz" 8, "wght" 300, "wdth" 125, "ytlc" 500;
+    font-variation-settings: "opsz" 8, "wght" 300, "wdth" 125, "YTLC" 500;
   }
 }
 
