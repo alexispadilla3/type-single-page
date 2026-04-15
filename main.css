@@ -150,13 +150,14 @@ footer {
   width: 100%;
   max-width: 90rem;
   height: 140px;
-  margin-top: 2440px;
+  margin-top: 440px;
 }
 
 /* Desktop */
 @media (min-width: 800px) {
   footer {
     height: 140px;
+    margin-top: 2440px;
   }
 }
 
@@ -276,11 +277,12 @@ h5{
 font-size: 50px;
    color: #1b1b1b;
    font-variation-settings:  "opsz" 12, "wght" 800, "wdth" 100, "ytlc" 500;
-   margin-top: 330px;
+   margin-top: 190px;
 }
 @media (min-width: 800px) {
   h5 {
     font-size: 80px; /* desktop */
+    margin-top: 330px;
   }
 }
 
@@ -325,7 +327,7 @@ font-size: 50px;
   width: 100%;        /* better for responsiveness */
   max-width: 1440px;
   height: 70px;       /* mobile height */
-  margin-top: 1450px;
+  margin-top: 1400px;
   background-color: #67635B;
 }
 
@@ -579,7 +581,7 @@ font-size: 50px;
 @media (min-width: 800px) {
   .marquee-track {
     height: 115.5px; /* desktop */
-     margin-top: 0px;
+    margin-top: 0px;
   }
 }
 
