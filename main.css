@@ -215,10 +215,15 @@ h4{
 }
 
 h5{
-   font-size: 80px;
+   font-size: 50px;
    color: #1b1b1b;
    font-variation-settings:  "opsz" 12, "wght" 800, "wdth" 100, "ytlc" 500;
    margin-top: 550px;
+}
+@media (min-width: 800px) {
+  h5 {
+    font-size: 80px; /* desktop */
+  }
 }
 
 .history-para {
@@ -244,15 +249,26 @@ h5{
 
 .axes{
   font-size: 20px;
-  margin-top: -140px;
+  margin-top: -90px;
+}
+@media (min-width: 800px) {
+  .axes {
+    margin-top: -140px; /* desktop */
+  }
 }
 
 .character{
-font-size: 80px;
+font-size: 50px;
    color: #1b1b1b;
    font-variation-settings:  "opsz" 12, "wght" 800, "wdth" 100, "ytlc" 500;
    margin-top: 330px;
 }
+@media (min-width: 800px) {
+  h5 {
+    font-size: 80px; /* desktop */
+  }
+}
+
 
 /*Box Styling*/
 /*Box Color*/
@@ -543,6 +559,7 @@ font-size: 80px;
     height: 115.5px; /* desktop */
   }
 }
+
 .second-marquee{
   transform: translateY(1200px);
 }
