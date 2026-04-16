@@ -10,7 +10,7 @@ This was my process in making, I started with figma, which helped me establish t
 One of the main features are the big graphical letters and numbers. These were inputed draw the user in and take a boring layout into something visually intresting. The goal was to illustrate Nunito Sans' various axes, suhc as weights, widths, x-hieght and optical size. 
 
 ## Reflection
-As I relfect on the project, my goal would be to think outside the box and design a more abstract and visual appealing layout rather than simple stereotypical website layouts. More on that I would experiment with different animations, as I orginally has a color changing aninmation, where when the weight woukd change the color would change. However, this animation was having techinical difficulties, therefore, I reverted backglithcing and not working as well, so I reverted back to my original we
+As I relfect on the project, my goal would be to think outside the box and design a more abstract and visual appealing layout rather than simple stereotypical website layouts. More on that I would experiment with different animations, as I orginally has a color changing aninmation, where when the weight woukd change the color would change. However, this animation was having techinical difficulties. Therefore, I reverted back to my original animation of just the axes' chnaging.
 
 ## Conclusion
-While this project was time-consuming, I learned the CSS grid layout.Overall, this project helped me build a strong foundation in front-end development and gave me a better understanding of how design translates into code.
+While this project was time-consuming, I learned the CSS grid layout. Overall, this project helped me build a strong foundation in front-end development and gave me a better understanding of how variable fonts can translates into code.
