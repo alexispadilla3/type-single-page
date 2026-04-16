@@ -91,11 +91,17 @@ transition: none !important; } }
 
   /* BUTTON */
   .outline {
+    width: 8rem;
+    height: 2.5rem;
+    right: 1.5rem;
+  }
+@media (min-width: 800px) {
+  .outline {
     width: 12.5rem;
     height: 3.125rem;
     right: 5.625rem;
   }
-
+}
   /* MARQUEE */
   .marquee-track span {
     font-size: 4rem;
@@ -150,15 +156,12 @@ footer {
 }
 
 /* Outline button styles */
+/* 1. BASE STYLES (Mobile First) */
 .outline {
     background-color: #1b1b1b;
     color: #93A6B9;
     transition: all .3s ease;
     position: absolute;
-    width: 200px;              
-    height: 50px;
-    margin-top: -149px;
-    right: 90px;
     z-index: 10;
     border-radius: 10px;
     font-size: 25px;
@@ -166,11 +169,27 @@ footer {
     display: flex;
     justify-content: center; 
     align-items: center; 
+    
+    /* Mobile Size */
+    width: 8rem;        
+    height: 2.5rem;
+    right: 1.5rem;
+    margin-top: -40px;
 }
 
 .outline:hover {
     background-color:#3e3e3e;
     color:#93A6B9;
+}
+
+/* 2. DESKTOP OVERRIDES (800px and up) */
+@media (min-width: 800px) {
+  .outline {
+    width: 12.5rem;
+    height: 3.125rem;
+    right: 5.625rem;
+    margin-top: -98px;
+  }
 }
 
 /* font styling area */
@@ -193,17 +212,19 @@ h3{
   display: flex;
   flex-wrap: wrap;
   gap: 43px;            /* controls spacing between letters */
-  font-size: 20vw;
-  margin: 65px 0 0 104px;
-  line-height: .8;
+  font-size: 15vw;
+  margin: 65px 0 0 15px;
+  line-height: 1;
   position: relative;
   z-index: 1;
    color:#1b1b1b;
+   margin-bottom: 58px;
 }
 @media (min-width: 800px) {
-  h {
-    font-size: 80px; /* desktop */
-    
+  h3 {
+    font-size: 20vw;/* desktop */
+    gap: 43px;  
+    margin: 56px 0 0 104px;
   }
 }
    
@@ -312,7 +333,7 @@ font-size: 3.125rem;
 /* Desktop */
 @media (min-width: 800px) {
   .yellow-small-box {
-    margin-top: 12rem;
+    margin-top: 6.7rem;
     height: 1.25rem;
   }
 }
@@ -329,7 +350,7 @@ font-size: 3.125rem;
 /* Desktop */
 @media (min-width: 800px) {
   .yellow-small-box-two {
-    margin-top: 93rem;
+    margin-top: 84.23rem;
     height: 8.2rem;
   }
 }
@@ -582,7 +603,7 @@ font-size: 3.125rem;
 @media (min-width: 800px) {
   .marquee-track {
     height: 115.5px; /* desktop */
-    margin-top: 90px;
+    margin-top: 5px;
   }
 }
 
@@ -591,7 +612,7 @@ font-size: 3.125rem;
 }
 @media (min-width: 800px) {
   .second-marquee {
-    transform: translateY(1200px);
+    transform: translateY(1230px);
   }
 }
 
